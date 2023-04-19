@@ -1,0 +1,29 @@
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT :
+
+
+1. Objects, in JavaScript, are the most important data type and form the building blocks for modern JavaScript.
+2. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.).
+3. Primitive data types contain one value but Objects can hold many values in form of Key: value pair.
+
+For Example:
+
+
+let Bike Details={
+
+	Model= 'Yamaha FZS'
+	Colour='Black'
+	Maker='Yamaha'
+	Seating='2'
+	Engine no='F45D15445D55'
+}
+
+1. 'Model','colour','maker','seating','Engine no' are all 'KEYS' and 'Yamaha FZS','Black','Yamaha','2','F45D15445D55' are all 'VALUES'
+2. objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+3. An object can be created with figure brackets {…}.
+
+4. Notation by using 'dot notation' (Bike Details.'Model')
+5. Notation by using 'Bracket Notation' (Bike Details['Model'])
+
+
+
+ 

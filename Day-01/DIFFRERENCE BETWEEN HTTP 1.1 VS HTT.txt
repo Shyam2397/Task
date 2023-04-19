@@ -1,0 +1,32 @@
+DIFFRERENCE BETWEEN HTTP 1.1 VS HTTP 2
+
+
+		The Hypertext Transfer Protocol, or HTTP, is an application standard for communication on the World Wide Web since it was invented by tim berners lee in 1989. HTTP 1.1 is further developed in 1997. Then it is further reimaged HTTP2 in 2015.
+
+The HTTP is a top-level application that exchanges information between a client computer and a local web remote server and is calling by a method “Get or Post”.
+
+
+
+
+WEB CLIENT ---> HTTP PROTOCOL
+			   |
+			   |	
+			WEB SERVER	<---> SERVER SLIDE SCRIPT <--> DATABASE
+
+
+
+HTTP1.1 :
+
+1. It works on the textual format.
+2. HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+3. Typically, a server only serves content to a client device if the client asks for it. However, this approach is not always practical for modern webpages.
+4. Small files load more quickly than large ones. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller.
+
+
+HTTP2 :
+
+1. It works on the binary protocol.
+2. HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+3. HTTP/2 solves this problem by allowing a server to "push" content to a client before the client asks for it.
+4. HTTP/2 solves this problem by allowing a server to "push" content to a client before the client asks for it.
+HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets.
