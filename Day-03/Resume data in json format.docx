@@ -1,0 +1,48 @@
+let Resume={
+    Name:"saran kumar",
+    
+    DOB:"23.06.1998",
+    
+    Address:{
+            doorno:'6',
+            street:'katchari street',
+            city:'madurai',
+            state:'tamil nadu',
+            pincode:'625001'},
+    
+    Phno:'630258465',
+    
+    email:'saran@gmail.com',
+    
+    Education:[
+        {
+            type:"sslc",
+            school:'Svm',
+            pecentage:'90'},
+            
+        {
+            type:'hsc',
+            School:'bbm',
+            percentage:'85'},
+        {
+            type:'Degree',
+            University:'anna university',
+            percentage:'70'}],
+    
+    Project:[
+        {
+            type:'mini project',
+            title:'PLANNING, DESIGN and ANALYSIS of MULTI LEVEL CAR PARKING',
+            score:'7'
+        },
+        {
+            type:'main project',
+            title:'CONCRETE TECHNOLOGY',
+            score:'8'
+        }],
+    
+    Skills:['autocadd','revit','staad pro','rcc design'],
+
+    Language:['english','tamil']
+
+}
