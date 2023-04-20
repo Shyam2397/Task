@@ -1,0 +1,55 @@
+// for loop
+
+//let cararray= ['BMW','Audi']
+//for(let i=0;i<cararray.length;i++){
+//    console.log(cararray[i])
+//}
+
+
+// let carobject={name:'BMW',year:'2020'}
+// let carkeys=Object.keys(carobject)
+// for(i=0;i<carkeys.length;i++){
+//     console.log(carobject[carkeys[i]])
+// }
+
+// ForEach
+
+// let cararray= ['BMW','Audi']
+// cararray.forEach(e => {
+//     console.log(e)
+//  })
+
+// let cararray= ['BMW','Audi']
+//   cararray.forEach((e,index) => {
+//     console.log(e,index)
+// })
+
+// for in
+
+// let cararray= ['BMW','Audi']
+// for(let e in cararray){
+//     console.log(e)
+// }
+
+// let cararray= ['BMW','Audi']
+// for(let e in cararray){
+//     console.log(cararray[e])
+// }
+
+
+// let carobject={name:'BMW',year:'2020'}
+// for(let e in carobject){
+//     console.log(e)
+// }
+
+// let carobject={name:'BMW',year:'2020'}
+// for(let e in carobject){
+//     console.log(carobject[e])
+// }
+
+// for of
+
+// let cararray= ['BMW','Audi']
+// for(let e of cararray){
+//     console.log(e)
+// }
